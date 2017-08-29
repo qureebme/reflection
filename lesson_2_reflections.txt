@@ -3,7 +3,11 @@ What happens when you initialize a repository? Why do you need to do it?
 Git starts keeping metadata on changes in the repository.
 
 How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+
+While the workspace physiaclly holds the files in our project, the staging area keeps
+info about changes that have been made to these files. This tracking info is stored 
+along with the project files when a commit is made. Making a commit creates a copy of 
+the project files and tracking info in the repo.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
